@@ -67,9 +67,9 @@ reads this file.
 ## Step 1 · Confirm before researching
 
 Play back what you heard in two sentences. List exactly what you are about to research and
-why, in plain words. Then show the seven gates from `references/scorecard.md` as the bar
-this run will be graded against: the founder sees what passing looks like BEFORE any
-research exists. Get a yes before running anything. Research without agreement gets
+why, in plain words. Then show the seven gates from `references/scorecard.md` as the test
+this run will be graded against: the founder sees the test BEFORE any research
+exists. Get a yes before running anything. Research without agreement gets
 thrown away.
 
 ## Steps 2-3 · LISTEN, then MAP
