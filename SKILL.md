@@ -133,6 +133,10 @@ no photos means no thumbnails with their face, so it gets set up now, once.
 
 ## Rules
 
+- Every message to the founder is scannable: a short header, then bullets or a
+  table. Operator maps, price bands, and gate grades go in TABLES; findings go in
+  short bullets with the key number in bold. Never a wall of paragraphs. The
+  founder reads while deciding, not studying.
 - The point is to END the choosing. One verdict, then action. Re-run this skill only when
   a real season of data says to, not when the doubt itches.
 - State the reason before every research step. Research without a stated reason is motion,
