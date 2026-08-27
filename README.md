@@ -65,6 +65,9 @@ Thirty minutes, start to finish.
 - `squad/offer-research.md`: what your market actually said
 - `squad/credibility-bank.md`: your proof, so nothing ever gets invented
 
-Free to use on your own business. Do not resell it.
+Free to use on your own business, forever. NOT free to resell: no repackaging
+into courses, template packs, or paid products, and no redistributing the files.
+Share the link, not the files. Full terms in [LICENSE.md](LICENSE.md).
+Copyright (c) 2026 Nova9 Inc.
 
 Watch it run on a real business: [the episode](https://www.youtube.com/@aichrislee).
