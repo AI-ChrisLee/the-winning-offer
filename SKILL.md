@@ -116,6 +116,11 @@ End with exactly one of these two:
 
 After the verdict, one more conversation. Build `squad/credibility-bank.md` by asking,
 a few questions at a time, until each list has real entries:
+Ask FIRST, in this same chat, exactly like the five questions: a few at a time,
+his answers only. Never prefill the bank by mining the founder's files or past
+work; anything you already know becomes a suggestion offered AFTER his answer
+lands, never a draft written for him. The bank is his voice or it is nothing.
+
 
 1. **Wins, each with its mechanism.** What have you actually done, and HOW? A number
    without its mechanism does not go in ("$50K/month" is a claim; "$50K/month, solo,
