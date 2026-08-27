@@ -18,7 +18,8 @@ Install this skill: https://github.com/AI-ChrisLee/the-winning-offer
 Clone it into my skills folder as the-winning-offer.
 ```
 
-Claude sets it up. That is the whole install.
+Claude sets it up. Then one more step: skills load when a session starts, so
+open a NEW session. That is the whole install.
 
 Manual way, if you prefer:
 
@@ -28,7 +29,7 @@ git clone https://github.com/AI-ChrisLee/the-winning-offer ~/.claude/skills/the-
 
 ## Run it
 
-In Claude Code, type:
+In a fresh session, type:
 
 ```
 /the-winning-offer
