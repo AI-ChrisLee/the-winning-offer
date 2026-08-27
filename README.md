@@ -57,8 +57,12 @@ Thirty minutes, start to finish.
 ## What you need
 
 - Claude Code (the desktop app works great)
-- Nothing else. It runs on Claude's built-in web search by default. If you have
-  your own research API keys, it will use them, but none are required.
+- Nothing else. It runs on Claude's built-in web search by default, free.
+
+Optional upgrade: connect your own [Apify](https://www.apify.com?fpr=aichrislee)
+account and the research gets much deeper: full Reddit threads and YouTube
+comments in bulk. A five dollar budget is plenty. (That is my affiliate link; it
+costs you nothing extra.)
 
 ## What comes out
 
