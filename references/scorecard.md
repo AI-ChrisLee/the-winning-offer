@@ -1,4 +1,4 @@
-# Model, build, score, attack (the Winning Offer, steps 4-7)
+# Model, build, score, attack (the Winning Offer: THE MODEL through ATTACK)
 
 ## The model check (first; the bundle column from the research feeds it)
 
@@ -8,12 +8,11 @@
    service sells recurring; half-and-half sells hybrid. Copy the split of the operator
    whose goods most resemble the founder's, and note which splits in this market are
    cooling (a model everyone is leaving is a warning).
-2. **The 10x / one-tenth test** (Hormozi's): if this offer cost ten times more, what
-   would you add? (That sketches the premium tier; reserve it, do not build it.) If it
-   had to cost a tenth and deliver MORE, what would you invent? (Whatever that is, propose
-   pulling it into the standard tier AT THE NUMBERS GATE; the founder decides. On the
-   card it enters through the stack only after that decision; an undecided find goes to
-   the verdict's week-one line, never silently into the stack.)
+2. **The one-tenth test** (Hormozi's): if this offer had to cost a tenth and deliver
+   MORE, what would you invent? Whatever that is, propose pulling it into the standard
+   tier AT THE NUMBERS GATE; the founder decides. On the card it enters through the stack
+   only after that decision; an undecided find goes in the card's WHAT WEEK ONE MAY ATTACK
+   NEXT section, never silently into the stack.
 3. **The day-31 attack** (only when there is a recurring fee): the buyer has paid, the
    thing works, the first renewal arrives. Name exactly what VISIBLY BREAKS for them if
    they cancel. For a service business, "breaks" means the service stopping (the grounds
@@ -28,10 +27,9 @@
    exist, still ask one question: "has anyone cancelled and, you suspect, not missed
    it?" A healthy-looking mechanic can be the founder's blind spot too.
 
-Two collision warnings: the 10x sketch is a premium tier of THIS offer, never a second
-switching itch in disguise; and everything the model check concludes (the pick, the
-price proposal, AND the day-31 cancel-line wording) gets presented together at the
-numbers gate. The cancel line is a founder decision, not an agent's afterthought.
+One collision warning: everything the model check concludes (the pick, the price
+proposal, AND the day-31 cancel-line wording) gets presented together at the numbers
+gate. The cancel line is a founder decision, not an agent's afterthought.
 
 ## Build through the value equation
 
@@ -68,12 +66,64 @@ effort. Each dial must become a PHRASE in the copy, not a score on a sheet:
 6. The value equation, no numeric scores: name the STRONGEST dial and the WEAKEST dial,
    each with one receipt. (A 1-10 score with no rubric is an invented number, and this
    skill bans invented numbers.)
-7. The number chain (how buyers currently reach them, stage by stage): the lowest number
-   is what week one attacks. If the funnel is a single step (post → DM → sale), do not
-   force a chain; name the one missing measurement instead.
+7. The number chain (how buyers currently reach them, stage by stage). **Read the chain
+   off the pasted CRM before asking the founder for any of it.** For a founder arriving
+   from the Warm Start that sheet IS the funnel, and it is read column by column, never
+   off Status alone:
 
-Score each gate with the receipt next to it. A gate without a receipt stays unscored and
-is said out loud.
+   | Stage | Where the row proves it |
+   |---|---|
+   | graded | Status `LISTED` |
+   | messaged | Status `SENT`, plus every status past it |
+   | replied | the **Reply column** carries something. Status has no reply state, and a row that answered usually still reads `SENT` |
+   | call happened | Status `TALKING` |
+   | demo | Status `DEMO SENT` |
+   | objection | Status `NOT NOW`, quoted word for word |
+
+   `CLOSED` is a dead row, not a sale: the Warm Start moves `SENT` rows past day 9 with
+   nothing back to `CLOSED`. Nothing in the eleven columns records a sale, so money is
+   ASKED for at the numbers gate and never counted off Status. Count the stages yourself,
+   show the count back in one line for a yes, and ask only for what the sheet cannot see
+   (views, clicks, list size, money). The window is whichever of these three they can
+   actually answer: the warm sprint just run, the last full buying cycle, or trailing
+   twelve months divided by twelve. Never the calendar month. Numbers the CRM cannot
+   answer are asked at the numbers gate, never mid-SCORE.
+   **Who owns the week-one blank, and this is the only place the rule lives** (the card
+   template and the run file point here): the WEAKEST STAGE of the chain, and only a stage
+   that EXISTS in this founder's funnel today can take it. Weakest means the biggest
+   drop-off between two stages, or a stage that exists and nobody counts, and an uncounted
+   stage outranks any counted one. Two or more uncounted, and the EARLIEST takes the
+   blank: a downstream stage cannot be fixed by a founder who never fed it. A stage that
+   does not exist yet is a different thing from one nobody counts: a founder who sends
+   every message by hand has no views and no clicks, so those are absent, not uncounted.
+   Name them on the card as not in play, and put standing one up in WHAT WEEK ONE MAY
+   ATTACK NEXT, never in the blank. Never the lowest number either: a funnel only
+   decreases, so the lowest number is always the last stage, which is the output, never
+   the constraint. One thing outranks the whole chain, an unsaid price from the numbers
+   gate, because no stage gets fixed by a founder who cannot quote their own number.
+   Write the chain and its window into `squad/offer-research.md` under `## SCORECARD`,
+   next to this gate. Name the stages in the founder's own vocabulary, the one the daily
+   post and the Sunday row already count (sent, replies, calls, money), and add views and
+   clicks only where a content lane actually exists; say plainly which stages do not exist
+   yet. If the funnel is a single step (post → DM → sale), the
+   uncounted-stage rule already answers it: the one live stage nobody counts IS the weakest
+   stage, and it goes in the blank.
+
+Score each gate with the receipt next to it, appended to `squad/offer-research.md` under
+`## SCORECARD`, by that exact heading. A gate without a receipt stays unscored and
+is said out loud. An unscored gate never fails the offer; it prints on the card as
+unmeasured and becomes a week-one attack candidate. Only a receipt showing a gate FAILS
+triggers the second verdict form.
+
+What each gate can do to the run, since the seven do not behave alike:
+
+- **Gate 2 fails: the run stops there.** No card gets built. A buyer with no money is not
+  an offer problem to fix later; say it, and the conversation turns to which buyer does
+  have money.
+- **Gates 1, 3, 4 and 5 fail: the card still prints**, carrying the second verdict form
+  ("This offer fails gate ___ because ___") and the fix.
+- **Gates 6 and 7 are diagnostic, never pass or fail.** Gate 6 produces the blind spot,
+  gate 7 produces the week-one target. Neither is ever named in a fails-gate verdict.
 
 ## The three self-attacks (run before showing anything)
 
@@ -84,7 +134,8 @@ is said out loud.
 - **The skeptic**: read it as a burned buyer who has been sold twice before. Every clause
   that smells like hype gets rewritten or gets a receipt.
 
-Write each attack and the fix it forced into your working notes, visibly. An attack with
+Write each attack and the fix it forced into `squad/offer-research.md`, appended under
+`## ATTACK LOG`, by that exact heading, visibly. An attack with
 no written fix (or no written "survived") did not happen. Fix what fails and re-attack
 until all three pass. Last check, because BUILD ran before SCORE: re-read THE PROMISE
 against gate 6's weakest dial. If the promise claims exactly the thing the weakest dial

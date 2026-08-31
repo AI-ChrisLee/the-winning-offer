@@ -1,78 +1,50 @@
-# The Winning Offer
+# The Winning Offer: install in 60 seconds
 
-A Claude Code skill that reads your market and hands you ONE offer on one page.
-You answer five questions. It researches real buyers in their own words, maps who
-already wins, grades your offer through seven gates, and ends with a verdict:
-this holds, here is the weak spot, start.
+The offer agent of an Execution Squad, and the second part of the run: the Warm Start
+listened, this one decides. It exists to kill one question: "is my niche even right?" It
+reads your own warm call notes first, fills what the calls could not answer with real
+market research, and hands you a one-page offer card with one verdict. Then you stop
+choosing and start.
 
-Built and used by [AI Chris Lee](https://www.youtube.com/@aichrislee). This is the
-first member of my Execution Squad: the systems that run my business. I use this
-exact file on my own company.
+## What to bring
 
-## Install (one minute)
-
-Open Claude Code, paste this, and send:
-
-```
-Install this skill: https://github.com/AI-ChrisLee/the-winning-offer
-Clone it into my skills folder as the-winning-offer.
-```
-
-Claude sets it up. Then one more step: skills load when a session starts, so
-open a NEW session. That is the whole install.
-
-Manual way, if you prefer:
-
-```bash
-git clone https://github.com/AI-ChrisLee/the-winning-offer ~/.claude/skills/the-winning-offer
-```
+Your calls. The Warm Start wrote them to `squad/warm-notes.md`, which this run opens
+itself, and it asks you to paste your Warm CRM rows next to them. Notes kept somewhere
+else are fine: a doc, a notebook, or just talking the calls back while it writes them
+down. No calls yet and the run still goes; the card carries that as its blind spot.
 
 ## Run it
 
-In a fresh session, type:
+The install lesson already put this skill in `.claude/skills/` and wired the two tools.
+Open Claude Code in your business folder and say: **"Run the Winning Offer on my
+business."** (Downloaded this folder on its own instead? Drop the whole thing into
+`.claude/skills/`, then quit and reopen Claude Code.)
 
-```
-/the-winning-offer
-```
+It reads your calls, asks five questions, confirms what it is about to research, and comes
+back with your one-page offer card: what your offer is in one sentence, the promise, who it
+is for, what is inside, the price and its terms, and the verdict. On a first run, Claude
+Code asks permission before its first searches and file writes; those prompts are normal,
+allow them.
 
-Or just say: "Run the Winning Offer on my business."
+Stopped halfway, or closed the laptop? Say **"continue the Winning Offer"** in a new
+window. It reads what is already on disk and picks up at the first thing missing.
 
-What happens, in order:
+## The two tools
 
-1. It asks you five questions about your business.
-2. It plays back what it heard and asks permission. Nothing runs without your yes.
-3. It shows the seven gates it will grade you against. Receipts or nothing.
-4. It researches your real buyers: their own words, what they pay, what they fear.
-5. It maps who already wins in your market, and finds the empty seat.
-6. It proposes a business model with proof, then stops. You type the price. It
-   never invents a number you did not give it.
-7. It grades all seven gates, names your weak spot, and attacks its own draft
-   three ways before showing you anything.
-8. You get one page: what you sell, who buys it, and the verdict.
-9. Last, it builds your credibility bank: your wins with the how, your losses,
-   and what you refuse to do. Every claim you ever publish pulls from that file.
+The install lesson wires Apify and Perplexity (five minutes, once). This run only checks
+them at its first stop, and tells you which mode it is in. Reddit is where your buyers
+write their problems out in full sentences and Claude Code cannot open it alone, so unwired
+the read is thinner, Reddit is missing from it entirely, and the card says so. Skipped that
+lesson? Go back and do it there; the `mcp.json.example` in this folder is the same config
+it uses. The run goes either way.
 
-Thirty minutes, start to finish.
+## What you get
 
-## What you need
+One page and one verdict. Either "this holds, here is the blind spot, start," or "this
+fails at gate X, fix that first." No option menus, no "it depends."
 
-- Claude Code (the desktop app works great)
-- Nothing else. It runs on Claude's built-in web search by default, free.
-
-Optional upgrade: connect your own [Apify](https://www.apify.com?fpr=aichrislee)
-account and the research gets much deeper: full Reddit threads and YouTube
-comments in bulk. A five dollar budget is plenty. (That is my affiliate link; it
-costs you nothing extra.)
-
-## What comes out
-
-- `squad/business.md`: your one-page offer card
-- `squad/offer-research.md`: what your market actually said
-- `squad/credibility-bank.md`: your proof, so nothing ever gets invented
-
-Free to use on your own business, forever. NOT free to resell: no repackaging
-into courses, template packs, or paid products, and no redistributing the files.
-Share the link, not the files. Full terms in [LICENSE.md](LICENSE.md).
-Copyright (c) 2026 Nova9 Inc.
-
-Watch it run on a real business: [the episode](https://www.youtube.com/@aichrislee).
+Two parts come next: the one that runs the sales call, from the prep sheet to the follow-up
+you send before you stand up, and the one that turns your first 90 days into a plan and
+then prints today's tasks every morning. They arrive one episode at a time. Subscribe (the
+link under every episode) and each new part lands in your inbox the day its episode goes
+live.
