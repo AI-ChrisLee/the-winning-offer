@@ -38,7 +38,7 @@ exists.
 
 | Beat | Mode |
 |---|---|
-| 0 THE CALLS, then SAY | HUMAN INPUT: `squad/warm-notes.md` and the CRM rows first, then the five answers |
+| 0 THE CALLS, then SAY | HUMAN INPUT: `squad/warm-notes.md` and the Outreach Sheet rows first, then the five answers |
 | 1 AGREE | **STOP · GATE: the tool check, then yes before any research runs** |
 | 2 LISTEN | AUTO (one exception: under about five PUBLIC quotes → ask the founder to paste more, then continue) |
 | 3 MAP | AUTO |
@@ -103,16 +103,19 @@ stop right here and tell the founder to finish the install: copy the whole skill
 **Then open the calls before you ask for anything.** The founder just spent a week in
 the Warm Start, sending by hand and talking to people who already know them, and the Warm
 Start wrote every line down. First act of this run: read `squad/warm-notes.md` yourself,
-plus `squad/warm-list.md` next to it for the graded rows. Never make the founder re-narrate
+plus `squad/warm-list.md` next to it for the graded rows, plus `squad/draft-offer.md`, the
+pile of per-person service ideas the warm week stacked up, one after each call, written by
+the Warm Start. Read that pile as draft thinking, never as a decision: this run forges
+those sketches into the card. Never make the founder re-narrate
 a call whose words are already on disk.
 
 Then ask, in one message, for the two things that are not on disk:
 
-- **the Warm CRM rows.** The sheet lives in the founder's Google Drive and you cannot open
-  it: ask them to copy the rows and paste them here, header row included. Four columns
-  carry this run, and the first one outranks the rest: What they need in their words ·
-  Reply · Notes · Status. Every row sitting at TALKING or NOT NOW matters most, and the
-  founder's summary of what a buyer needs is worth nothing next to the buyer's own line.
+- **the Outreach Sheet rows.** The sheet lives in the founder's Google Drive and you
+  cannot open it: ask them to copy the Warm tab and paste it here, header row included,
+  all seven columns. Column 5, `What they said on the call`, outranks the rest, and the
+  objections live in the `NOT NOW` rows plus that column; the founder's summary of what a
+  buyer needs is worth nothing next to the buyer's own line.
 - **anything they kept somewhere else**: a doc, a notebook, a paste into this chat, or just
   talking the calls back to you now while you write them down. When this repo has no
   `squad/warm-notes.md` at all, say so plainly and make this the whole intake.
@@ -247,7 +250,7 @@ the calls gave you. SCORE the seven gates, receipts or nothing, and where a gate
 graded off something a buyer said on a call, grade it off that; a scraped receipt is the
 fallback, and a receipt with no source is not a receipt. ATTACK your own draft three ways,
 in writing, before showing anything, and run it against the real NOT NOW reasons from the
-CRM before any objection you invent.
+Outreach Sheet before any objection you invent.
 
 ## Step 8 · THE CARD
 

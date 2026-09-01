@@ -8,8 +8,9 @@ choosing and start.
 
 ## What to bring
 
-Your calls. The Warm Start wrote them to `squad/warm-notes.md`, which this run opens
-itself, and it asks you to paste your Warm CRM rows next to them. Notes kept somewhere
+Your calls. The Warm Start wrote them to `squad/warm-notes.md`, and its per-call service
+ideas to `squad/draft-offer.md`; this run opens both itself, and it asks you to paste your
+Outreach Sheet's Warm tab next to them. Notes kept somewhere
 else are fine: a doc, a notebook, or just talking the calls back while it writes them
 down. No calls yet and the run still goes; the card carries that as its blind spot.
 
