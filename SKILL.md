@@ -103,7 +103,7 @@ stop right here and tell the founder to finish the install: copy the whole skill
 **Then open the calls before you ask for anything.** The founder just spent a week in
 the Warm Start, sending by hand and talking to people who already know them, and the Warm
 Start wrote every line down. First act of this run: read `squad/warm-notes.md` yourself,
-plus `squad/warm-list.md` next to it for the graded rows, plus `squad/draft-offer.md`, the
+plus `squad/warm-list.md` if it exists (the pasted Warm tab rows are the list otherwise), plus `squad/draft-offer.md`, the
 pile of per-person service ideas the warm week stacked up, one after each call, written by
 the Warm Start. Read that pile as draft thinking, never as a decision: this run forges
 those sketches into the card. Never make the founder re-narrate
@@ -148,8 +148,7 @@ say in public rather than from what your own buyers said to your face, and the c
 line carries how thin the read was. The blind spot is gate 6's, always. Then the smaller run, which is the default: proceed now, and
 re-open this run after the next five conversations land, from any lane. Going back beats
 going forward on a count, not a feeling: nothing sent yet at all, or graded names still
-unsent outnumbering the sent ones. Either way say so, point at the Warm Start
-(`https://github.com/AI-ChrisLee/the-warm-start`), and let the founder pick. A list already
+unsent outnumbering the sent ones. Either way say so, point back at g3's warm week, and let the founder pick. A list already
 in motion runs now; a founder whose list is spent never gets sent back to wait.
 
 **Then the five answers.** Ask, in one message, only these:
