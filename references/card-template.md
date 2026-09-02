@@ -1,4 +1,4 @@
-# The offer card (the Winning Offer: THE CARD)
+# The offer document (the Winning Offer: THE DOCUMENT)
 
 One page. This order. Nothing else.
 
@@ -28,7 +28,7 @@ details (how it arrives, where meetings happen) live inside the item they belong
 not in a separate section.
 The fear column has a source ladder, and it only climbs down when a rung is empty: a warm
 call quote first, a scraped quote second, and the founder's own stated pain last, printed
-with `(founder's own read, unsourced)` visible in the cell. A card carrying warm call
+with `(founder's own read, unsourced)` visible in the cell. A document carrying warm call
 quotes never prints that last form, whatever the market read's own count says. Never
 blank, never unmarked, and never a buyer quote nobody said.
 Four rules: the stack lists what exists TODAY; anything new the research suggests adding
@@ -43,7 +43,7 @@ an asset, because it is part of what the buyer's money joins.
 Two table shapes, and the market's own precedent picks between them. `stage · seats or
 trigger · price` for a price that rises on a ladder. `package · what's inside · price`
 for a market whose operators all sell named tiers (every wedding videographer publishes
-three; the model check already copied that precedent, so the card prints it). If there is
+three; the model check already copied that precedent, so the document prints it). If there is
 one price, state the one price plainly. Never invent tiers the founder has not decided:
 "you never present options" governs what YOU hand the founder, never the shape of what
 the founder sells to a buyer. A tier table the founder decided at the numbers gate is a
@@ -78,13 +78,13 @@ take the week-one blank. The full chain lives in
 later agent reads without opening that file.
 
 ## THE SWITCHING ITCH (only when step 0, question 5 surfaced one)
-One line, right before the verdict: the thing the founder keeps thinking about switching
+One line, right before the answer: the thing the founder keeps thinking about switching
 to, and what the research found about it. The itch resolves HERE, in this line; its first
-paid test goes in WHAT WEEK ONE MAY ATTACK NEXT, never in the verdict's blank.
+paid test goes in WHAT WEEK ONE MAY ATTACK NEXT, never in the answer's blank.
 
-## THE VERDICT
-The card's last judgment; the two sections below it are addenda, not judgments, and the
-card's last line is a footer. Exactly one of these two forms, word for word, bold:
+## THE ANSWER
+The document's last judgment; the two sections below it are addenda, not judgments, and the
+document's last line is a footer. Exactly one of these two forms, word for word, bold:
 
 **"This offer holds. The blind spot is ___. Week one attacks ___. Stop choosing. Start."**
 
@@ -94,11 +94,11 @@ card's last line is a footer. Exactly one of these two forms, word for word, bol
 `scorecard.md` gate 7.
 
 ## WHAT WEEK ONE MAY ATTACK NEXT
-Everything that wanted the verdict's blank and did not get it: the switching itch's first
+Everything that wanted the answer's blank and did not get it: the switching itch's first
 paid test, any unscored gate, the undecided one-tenth find. One line each, no ranking. The
 section is absent when there is nothing in it.
 
-## BRAND (one line, the card's last section)
+## BRAND (one line, the document's last section)
 Two decisions, not research findings: the founder's ONE accent color (a hex) and the
 product word (the one noun they use for what they sell, plus any synonym they refuse).
 Step 8's voice pass asks both, in the same breath as the sentence and the promise.
@@ -110,7 +110,7 @@ copies it; without it every later agent guesses.
 
 Formatting rules: plain markdown only (no HTML), tables for anything with three or more
 columns of facts, bold for the sentence and the promise, no section past one screen.
-Last line of the card, one small line: the research mode this run used (wired, or the
+Last line of the document, one small line: the research mode this run used (wired, or the
 unwired ladder), whether the read came back thin, and, the moment the founder says yes at
-the step 8 gate, `confirmed <date>`. That stamp is the only record that the verdict was
+the step 8 gate, `confirmed <date>`. That stamp is the only record that the answer was
 approved, and a later session reads it to know whether the gate still owes a run.

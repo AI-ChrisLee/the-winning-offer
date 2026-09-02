@@ -1,23 +1,23 @@
 ---
 name: the-winning-offer
-description: Use this when you keep asking "is my niche right? is my offer right?", when the founder says "run the Winning Offer", "run the offer check" (the old name for this same run), or "continue the Winning Offer" (picking a stopped run back up). It runs after the Warm Start, builds the offer out of the founder's own warm call notes, fills what the calls could not answer with real market research, scores the result through seven gates, and hands back a one-page offer card with one verdict: this holds, here is the blind spot, start. Built to end the choosing, not to add options.
+description: Use this when you keep asking "is my niche right? is my offer right?", when the founder says "run the Winning Offer", "run the offer check" (the old name for this same run), "write my offer card" (the old name for the page it produces), or "continue the Winning Offer" (picking a stopped run back up). It runs after Warm Extract, builds the offer out of the founder's own warm call notes, fills what the calls could not answer with real market research, scores the result through seven gates, and hands back a one-page offer document with one answer: this holds, here is the blind spot, start. Built to end the choosing, not to add options.
 ---
 
 # The Winning Offer
 
-The Warm Start listened; you decide. Your job is to kill one question forever:
+Warm Extract listened; you decide. Your job is to kill one question forever:
 "is this the right niche?" That question never dies by thinking. It dies by data, and data
 only comes from action. Your work, in one line: **take everything the founder's own warm
 calls said, plus everything the public record shows about this market (what sells, what
 buyers say in their own words, what the winners bundle and charge), and distill it into
-ONE offer.** One verdict, one one-page card. Then the founder stops choosing and starts
+ONE offer.** One answer, one one-page document. Then the founder stops choosing and starts
 collecting real data.
 
-**The calls come before the card, and that order is the whole trick.** The founder ran the
-Warm Start first, so at least one real conversation with a real buyer already happened
+**The calls come before the document, and that order is the whole trick.** The founder ran
+Warm Extract first, so at least one real conversation with a real buyer already happened
 before this run opens, often a handful, and it is already written down:
 `squad/warm-notes.md` holds what those people said, verbatim, labeled and dated. One
-conversation opens this run; under five makes the read thin, which the card's mode line
+conversation opens this run; under five makes the read thin, which the document's mode line
 prints and names, and never makes the run wait. That file is your PRIMARY source. The
 scrapers are the second source, and they exist to fill what the calls could not answer,
 never to lead. An offer written before anybody was asked is written in the founder's own
@@ -46,7 +46,7 @@ exists.
 | 5 BUILD | AUTO |
 | 6 SCORE | AUTO |
 | 7 ATTACK | AUTO |
-| 8 THE CARD | Produce it whole, verdict included, then **STOP · GATE: the voice pass, the two brand decisions, and the founder's yes on the verdict** |
+| 8 THE DOCUMENT | Produce it whole, answer included, then **STOP · GATE: the voice pass, the two brand decisions, and the founder's yes on the answer** |
 | 9 THE BANK | HUMAN INPUT: wins, losses, the never-list, client results, proof assets, voice notes |
 | 10 THE ROOTS FILE | AUTO: fill `.claude/squad-roots.md`, no questions |
 
@@ -63,20 +63,20 @@ order and continue at the first one missing or incomplete.
 | `squad/warm-notes.md` exists but `squad/offer-research.md` has no `## BUYER LANGUAGE` block carrying `(warm call ...)` quotes | step 0, the warm read |
 | `squad/business.md` still holds `## THE FIVE ANSWERS` and `squad/offer-research.md` has no heading past `## BUYER LANGUAGE` | step 1 (restate the five answers back for confirmation, never re-ask them) |
 | `squad/offer-research.md` is missing a heading its output table names | that heading's step |
-| the card exists but its BRAND line is missing, or its last line carries no `confirmed <date>` stamp | step 8, THE GATE ONLY: never re-run the research |
-| the card is written but `squad/credibility-bank.md` has fewer than six sections | step 9 |
+| the document exists but its BRAND line is missing, or its last line carries no `confirmed <date>` stamp | step 8, THE GATE ONLY: never re-run the research |
+| the document is written but `squad/credibility-bank.md` has fewer than six sections | step 9 |
 | `.claude/squad-roots.md` is missing a field this run answers | step 10 |
 
-A card already written means steps 0 through 7 are done: never re-run them. The step-8
+A document already written means steps 0 through 7 are done: never re-run them. The step-8
 gate is not done until the BRAND line is filled and the founder's yes is stamped on the
-card's last line, so a card that stopped short of it gets the gate, and only the gate. Never re-ask a question
+document's last line, so a document that stopped short of it gets the gate, and only the gate. Never re-ask a question
 the files already answer, and never re-run a research pass whose findings are already on
 disk.
 
 ## The outputs (four files, every run)
 
 1. `squad/business.md`: THE file. It starts as the five answers under `## THE FIVE ANSWERS`,
-   and step 8 rewrites it into the one-page offer card, which is this file's finished form.
+   and step 8 rewrites it into the one-page offer document, which is this file's finished form.
    Every later agent reads it.
 2. `squad/offer-research.md`: what the buyers said and what the market says, under the exact
    heading strings `references/research-method.md` names, written every run even when a
@@ -101,12 +101,12 @@ stop right here and tell the founder to finish the install: copy the whole skill
 `references/` included. A broken install caught after the intake costs them the intake.
 
 **Then open the calls before you ask for anything.** The founder just spent a week in
-the Warm Start, sending by hand and talking to people who already know them, and the Warm
-Start wrote every line down. First act of this run: read `squad/warm-notes.md` yourself,
+Warm Extract, sending by hand and talking to people who already know them, and Warm Extract
+wrote every line down. First act of this run: read `squad/warm-notes.md` yourself,
 plus `squad/warm-list.md` if it exists (the pasted Warm tab rows are the list otherwise), plus `squad/draft-offer.md`, the
 pile of per-person service ideas the warm week stacked up, one after each call, written by
-the Warm Start. Read that pile as draft thinking, never as a decision: this run forges
-those sketches into the card. Never make the founder re-narrate
+Warm Extract. Read that pile as draft thinking, never as a decision: this run forges
+those sketches into the document. Never make the founder re-narrate
 a call whose words are already on disk.
 
 Then ask, in one message, for the two things that are not on disk:
@@ -123,7 +123,7 @@ Then ask, in one message, for the two things that are not on disk:
 Then mine them, which is not the same as skimming them. Pull every line a buyer actually
 said, verbatim, and write it into `squad/offer-research.md` under `## BUYER LANGUAGE`,
 each quote labeled with where it came from in the form `(warm call · Mina K · Aug 14)`.
-Five things earn their own quotes, and the Warm Start captured them in this order:
+Five things earn their own quotes, and Warm Extract captured them in this order:
 
 1. **The words they used for the problem.** Their nouns, not the founder's. These become
    the sentence and the promise later, and no scraped phrase outranks them.
@@ -144,7 +144,7 @@ for steps 2 and 3.
 
 **No notes, or fewer than five conversations?** Say it plainly, once, without a lecture:
 the offer built from research alone is weaker, because it is assembled from what strangers
-say in public rather than from what your own buyers said to your face, and the card's mode
+say in public rather than from what your own buyers said to your face, and the document's mode
 line carries how thin the read was. The blind spot is gate 6's, always. Then the smaller run, which is the default: proceed now, and
 re-open this run after the next five conversations land, from any lane. Going back beats
 going forward on a count, not a feeling: nothing sent yet at all, or graded names still
@@ -159,7 +159,7 @@ in motion runs now; a founder whose list is spent never gets sent back to wait.
 4. How did anyone who ever paid you find you? If nobody has, say so.
 5. Is there something different you keep thinking you SHOULD sell instead? (This catches
    the switching itch. Carry the answer all the way through: the market read tests that
-   category as one of the seats, the card gives it one line, and the verdict resolves it.)
+   category as one of the seats, the document gives it one line, and the answer resolves it.)
 
 **Nobody has paid yet?** That is the founder this arc was built for, not a failure.
 Questions 3 and 4 get one honest line each and the run fills the hole elsewhere: the warm
@@ -172,7 +172,7 @@ If an answer is vague, ask a follow-up. Keep asking until you could explain this
 to a stranger in two sentences, and stop the moment the honest answer is that there is
 nothing there yet. Save them to `squad/business.md` under one heading,
 `## THE FIVE ANSWERS`, one labeled line per question; the resume check reads that heading,
-and step 8 replaces the whole thing with the card. Where a call already answered one of
+and step 8 replaces the whole thing with the document. Where a call already answered one of
 the five, show the founder the quote and ask them to confirm or correct it, rather than
 making them type an answer they already gave a buyer out loud.
 
@@ -193,9 +193,9 @@ not wired. Say which mode this run is in. **Apify is the one that matters and th
 lesson wired it; Perplexity is optional there**, so a run with Apify live and Perplexity
 absent is a normal wired run, and pass 2's direction read falls back to search. A founder
 with no Apify goes back to the install lesson rather than into a procedure here. The run goes either way. Unwired it runs on the ladder in
-`references/research-method.md`, the card prints the mode, and Reddit (the best public
+`references/research-method.md`, the document prints the mode, and Reddit (the best public
 source of buyer language once the calls are mined) is missing from the read entirely. Say
-that here, before they decide, never after the card prints.
+that here, before they decide, never after the document prints.
 
 ## Steps 2-3 · LISTEN, then MAP
 
@@ -206,7 +206,7 @@ starting cold. Work the gap list you read back at step 0.
 
 **Two: the thin test counts PUBLIC quotes only**, on the rule
 `references/research-method.md` owns. Under about five public quotes fires two things and
-only two: that file's founder ask, and the thin flag on the card's mode line. It never
+only two: that file's founder ask, and the thin flag on the document's mode line. It never
 reaches THE STACK's fear column, which runs on its own ladder in
 `references/card-template.md`.
 
@@ -240,7 +240,7 @@ behind call-closed pricing is normal, and is itself the transparency seat), the 
 question needs a different number, in this order: the founder's own current rate or day
 rate from the five answers, then the lowest number a buyer named on a warm call, whether
 they were quoting a competitor or what they pay today. Hold that one up the same way, and
-say where it came from. Still a deflection, and the number prints as the card's price
+say where it came from. Still a deflection, and the number prints as the document's price
 marked `(proposed, not yet said out loud)`, and saying it out loud becomes the week-one
 attack. PRICE never prints blank.
 
@@ -251,55 +251,55 @@ fallback, and a receipt with no source is not a receipt. ATTACK your own draft t
 in writing, before showing anything, and run it against the real NOT NOW reasons from the
 Outreach Sheet before any objection you invent.
 
-## Step 8 · THE CARD
+## Step 8 · THE DOCUMENT
 
-Read `references/card-template.md` and produce the one-page offer card in exactly that
+Read `references/card-template.md` and produce the one-page offer document in exactly that
 structure, written INTO `squad/business.md`, replacing the five answers (fold anything
-still useful from them into the card's WHO and MODEL sections). One file, one page: the
-business file's finished form is the card.
+still useful from them into the document's WHO and MODEL sections). One file, one page: the
+business file's finished form is the document.
 
-Print the complete card, verdict included, then stop; re-print only the lines the founder
+Print the complete document, answer included, then stop; re-print only the lines the founder
 changes.
 
 **The stop is the founder's, and it has three parts.** First the voice pass: ask them to
 read the sentence and the promise out loud and change any word that does not sound like
-them. The card is theirs the moment they can say it at a dinner table without reading.
-Second, the two BRAND decisions the card's last line needs: their ONE accent color (a hex)
+them. The document is theirs the moment they can say it at a dinner table without reading.
+Second, the two BRAND decisions the document's last line needs: their ONE accent color (a hex)
 and the ONE product word they use for what they sell, plus any synonym they refuse. Write
-both onto the card's BRAND line. "(none yet)" goes there only when the founder declines to
+both onto the document's BRAND line. "(none yet)" goes there only when the founder declines to
 decide, never because the ask was skipped; step 10 and every thumbnail after it read that
-line. Third, the verdict itself: ask for their yes, out loud. The moment it comes, stamp the
-card's last line with `confirmed <today's date>`; that stamp is the only record the gate
+line. Third, the answer itself: ask for their yes, out loud. The moment it comes, stamp the
+document's last line with `confirmed <today's date>`; that stamp is the only record the gate
 happened, and the resume check reads it. A no is not a request for a different offer, it
 is an objection with a name: take the thing they objected to, run ATTACK against that, and
 re-print the lines it changes. Never answer a no with a menu.
 
-**Card self-check before the stop.** Every unconditional heading in
-`references/card-template.md` is present, THE VERDICT and BRAND included. Each conditional
+**Document self-check before the stop.** Every unconditional heading in
+`references/card-template.md` is present, THE ANSWER and BRAND included. Each conditional
 heading is present or its condition is false, and the three conditionals are: SCARCITY +
 URGENCY (absent when nothing is genuinely scarce), THE SWITCHING ITCH (only when step 0,
 question 5 surfaced one), and WHAT WEEK ONE MAY ATTACK NEXT (absent when nothing wanted
-the verdict's blank). Never invent content so a heading can appear. The skills after this
+the answer's blank). Never invent content so a heading can appear. The skills after this
 one read these headings by name.
 
-## The verdict
+## The answer
 
-The card ends on exactly one of the two forms printed word for word in
+The document ends on exactly one of the two forms printed word for word in
 `references/card-template.md`, and on nothing else. A gate-2 kill is the third ending: it
-builds no card at all and closes on the line in step 9, a different buyer rather than a
+builds no document at all and closes on the line in step 9, a different buyer rather than a
 different offer.
 
 **The week-one blank belongs to `references/scorecard.md` gate 7**, the only place that
 rule lives, its unsaid-price override included. Everything that wanted the blank and did
 not get it (the switching itch's first paid test, any unscored gate, the undecided
-one-tenth find, a stage that does not exist in the funnel yet) lists in the card's WHAT
+one-tenth find, a stage that does not exist in the funnel yet) lists in the document's WHAT
 WEEK ONE MAY ATTACK NEXT section, never inside the blank. When step 0, question 5 surfaced
-a switching itch, the itch is resolved in the card's SWITCHING ITCH line directly above the
-verdict.
+a switching itch, the itch is resolved in the document's SWITCHING ITCH line directly above the
+answer.
 
 ## Step 9 · THE BANK
 
-After the verdict, one more conversation. The bank runs on BOTH verdicts; proof and
+After the answer, one more conversation. The bank runs on BOTH answers; proof and
 voice belong to the founder, not the offer. Build `squad/credibility-bank.md` by asking, a
 few questions at a time, until each section holds real entries or an honest "(none yet)".
 Ask first, in this same chat, exactly like the five questions: the founder's answers only.
@@ -312,10 +312,9 @@ worse than an empty one, because every later agent pulls its proof from here pre
 it never has to invent any.
 
 The six headings are written by exact string, every run, because the skills after this one
-resolve them by name: the Close appends a first receipt under `## 1 · WINS, each with its
-mechanism` or `## 4 · CLIENT RESULTS, verbatim`, and the Proven Package checks all six
-before it will package anything and re-interviews for whichever is missing. A heading that
-drifted is a section that is gone, on a file that is actually full.
+resolve them by name: the Proven Package checks all six before it will package anything and
+re-interviews for whichever is missing. A heading that drifted is a section that is gone, on
+a file that is actually full.
 
 1. **`## 1 · WINS, each with its mechanism`.** What have you actually done, and HOW? A
    number without its mechanism does not go in ("$50K/month" is a claim; "$50K/month, solo,
@@ -336,7 +335,7 @@ drifted is a section that is gone, on a file that is actually full.
    reads to them as a founder with no voice.
 
 **A gate-2 stop lands here too.** When gate 2 killed the run (`references/scorecard.md`:
-the buyer has no money), no card gets built, but this step and step 10 still run, because
+the buyer has no money), no document gets built, but this step and step 10 still run, because
 the proof, the voice and the roots file belong to the founder rather than to that offer.
 Then say the next move in one line: a different buyer, not a different offer.
 
@@ -350,7 +349,7 @@ fields THIS run answered, in place, and change nothing else:
 |---|---|
 | founder name | <as they say it on camera>, when that row is still blank |
 | product word | <the one word> (banned synonyms: <the words they refuse>) |
-| accent color | <the hex from the card's BRAND line, or (none yet)> |
+| accent color | <the hex from the document's BRAND line, or (none yet)> |
 | data sources | `squad/business.md` · `squad/offer-research.md` |
 | credibility-bank | `squad/credibility-bank.md`, the file step 9 just wrote |
 | research mode | <what this run used: wired, or the unwired ladder> |
@@ -369,7 +368,7 @@ and every later part of the system reads it.
   table. Operator maps, price bands, and gate grades go in TABLES; findings go in
   short bullets with the key number in bold. Never a wall of paragraphs. The
   founder reads while deciding, not studying.
-- The point is to END the choosing. One verdict, then action. Re-run this skill only when
+- The point is to END the choosing. One answer, then action. Re-run this skill only when
   a real season of data says to, not when the doubt itches.
 - State the reason before every research step. Research without a stated reason is motion,
   not work.
