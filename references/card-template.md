@@ -77,7 +77,7 @@ take the week-one blank. The full chain lives in
 `squad/offer-research.md` under `## SCORECARD`, next to gate 7; this line is the copy every
 later agent reads without opening that file.
 
-## THE SWITCHING ITCH (only when step 0, question 5 surfaced one)
+## THE SWITCHING ITCH (only when C0, question 5 surfaced one)
 One line, right before the answer: the thing the founder keeps thinking about switching
 to, and what the research found about it. The itch resolves HERE, in this line; its first
 paid test goes in WHAT WEEK ONE MAY ATTACK NEXT, never in the answer's blank.
@@ -101,7 +101,7 @@ section is absent when there is nothing in it.
 ## BRAND (one line, the document's last section)
 Two decisions, not research findings: the founder's ONE accent color (a hex) and the
 product word (the one noun they use for what they sell, plus any synonym they refuse).
-Step 8's voice pass asks both, in the same breath as the sentence and the promise.
+The voice pass at THE YES asks both, in the same breath as the sentence and the promise.
 "(none yet)" goes here only when the founder declines to decide, never because the ask was
 skipped, and never a color chosen for them. The thumbnail work reads this line, and the roots file
 copies it; without it every later agent guesses.
@@ -110,7 +110,9 @@ copies it; without it every later agent guesses.
 
 Formatting rules: plain markdown only (no HTML), tables for anything with three or more
 columns of facts, bold for the sentence and the promise, no section past one screen.
-Last line of the document, one small line: the research mode this run used (wired, or the
-unwired ladder), whether the read came back thin, and, the moment the founder says yes at
-the step 8 gate, `confirmed <date>`. That stamp is the only record that the answer was
-approved, and a later session reads it to know whether the gate still owes a run.
+Last line of the document, one small line, the mode line: `warm · N calls`, `warm · self-interview
+only`, `cold · market` or `cold · market + N calls`; on a cold run the tool mode in parens
+(wired, or the unwired ladder) and `thin` when the public read came back under about 5
+quotes; and, the moment the founder says yes at THE YES, `confirmed <date>`. That stamp is
+the only record that the answer was approved, and a later session reads it to know whether
+the gate still owes a run.

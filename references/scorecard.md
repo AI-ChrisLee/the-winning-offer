@@ -67,7 +67,7 @@ effort. Each dial must become a PHRASE in the copy, not a score on a sheet:
    each with one receipt. (A 1-10 score with no rubric is an invented number, and this
    skill bans invented numbers.)
 7. The number chain (how buyers currently reach them, stage by stage). **One stage is
-   already on paper: the objection.** The NOT NOW rows the founder pasted at step 0 are it,
+   already on paper: the objection.** The NOT NOW rows the founder pasted at C0 are it,
    each reason quoted word for word out of column 5, `What they said on the call`. Count
    those rows and read the reasons; that is the whole chain this run holds. Nothing else
    here opens the founder's sheet, so every other stage (sent, replies, calls, money, plus
@@ -89,6 +89,8 @@ effort. Each dial must become a PHRASE in the copy, not a score on a sheet:
    decreases, so the lowest number is always the last stage, which is the output, never
    the constraint. One thing outranks the whole chain, an unsaid price from the numbers
    gate, because no stage gets fixed by a founder who cannot quote their own number.
+   On a warm run no chain is asked: this gate prints `unscored: no call touched it`, and the
+   blank goes to an unsaid price first, then to the earliest gate printed unscored.
    Write the chain and its window into `squad/offer-research.md` under `## SCORECARD`,
    next to this gate. Name the stages in the founder's own vocabulary, the one the daily
    post and the Sunday row already count (sent, replies, calls, money), and add views and
@@ -98,8 +100,8 @@ effort. Each dial must become a PHRASE in the copy, not a score on a sheet:
    stage, and it goes in the blank.
 
 Score each gate with the receipt next to it, appended to `squad/offer-research.md` under
-`## SCORECARD`, by that exact heading. A gate without a receipt stays unscored and
-is said out loud. An unscored gate never fails the offer; it prints on the document as
+`## SCORECARD`, by that exact heading. A gate without a receipt stays unscored and is said out loud; on a warm run, where the
+calls are the only receipts, it prints `unscored: no call touched it`. An unscored gate never fails the offer; it prints on the document as
 unmeasured and becomes a week-one attack candidate. Only a receipt showing a gate FAILS
 triggers the second answer form.
 

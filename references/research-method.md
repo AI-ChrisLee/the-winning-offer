@@ -4,17 +4,17 @@ Two passes, in this order. State the reason for each before running it.
 
 ## Which mode this run is in
 
-Step 1 of the run checks the two tools by probing one each. The Winning Offer lesson's Step
-1 wires Apify, so most runs arrive with that one live; Perplexity is optional and no lesson
-wires it. A tool that errors on auth counts as NOT wired. Say so, print unwired mode on the
+C1 of the run checks the 2 tools by probing one each. Apify is the optional wiring at the
+end of the Winning Offer lesson's Step 1, so a run arrives with it live or not; Perplexity is
+optional and no lesson wires it. A tool that errors on auth counts as NOT wired. Say so, print unwired mode on the
 document, and run the ladder below.
 
 What unwired costs, in one line: Reddit. `reddit.com` is blocked for the built-in fetch and
 for the built-in search, so an unwired run returns zero Reddit results in every niche, and
 Reddit is where this buyer's pain arrives in full sentences. Say that at the gate, before
-the founder decides, never after the document prints. A founder who wants it wired goes back to
-Step 1 of the Winning Offer lesson, where the token and the wiring paste live; this run does
-not stop for it, and it never runs the wiring itself.
+the founder decides, never after the document prints. A founder who wants it wired pastes their token ("Here is my Apify token: ____. Use it for
+the Winning Offer.") and the skill writes the wiring itself, in a turn of its own; this run
+does not stop for it.
 
 ## Pass 1 · The buyer's own language
 
@@ -99,7 +99,7 @@ Collect, verbatim and with sources:
 
 Rules for this pass, learned the hard way:
 
-- **When step 0, question 5 surfaced a switching itch**, collect buyer language for that
+- **When C0, question 5 surfaced a switching itch**, collect buyer language for that
   category too: same sources, same rules. The itch answer needs buyer pull, not just an
   operator table.
 - **A search engine's summary is NOT a quote.** A quote only counts if you read it on the
@@ -171,7 +171,7 @@ the built-in search is the fallback, under the same honesty rules as Pass 1.
    (operators whose first dated work or reviews fall inside it).
 3. **Where is the empty seat?** The combination nobody occupies: a price point, a delivery
    model, a buyer segment, a promise. Two seats always get tested: (a) the founder's
-   switching itch from step 0, question 5 (is that category actually open, or already a
+   switching itch from C0, question 5 (is that category actually open, or already a
    price war?), and (b) the transparency seat (when most operators hide their price behind
    a call, a published price IS an empty seat, and their opacity is the evidence). "No
    competition at all" is a warning, not a win: competitors selling is proof the money
