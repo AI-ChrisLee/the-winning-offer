@@ -66,28 +66,16 @@ effort. Each dial must become a PHRASE in the copy, not a score on a sheet:
 6. The value equation, no numeric scores: name the STRONGEST dial and the WEAKEST dial,
    each with one receipt. (A 1-10 score with no rubric is an invented number, and this
    skill bans invented numbers.)
-7. The number chain (how buyers currently reach them, stage by stage). **Read the chain
-   off the pasted Outreach Sheet rows before asking the founder for any of it.** For a founder arriving
-   from Warm Extract that sheet IS the funnel, and it is read column by column, never
-   off Status alone:
-
-   | Stage | Where the row proves it |
-   |---|---|
-   | graded | Status `LISTED` |
-   | messaged | Status `SENT`, plus every status past it |
-   | replied | the **Reply column** carries something. Status has no reply state, and a row that answered usually still reads `SENT` |
-   | call happened | Status `TALKING` |
-   | demo | Status `DEMO SENT` |
-   | objection | Status `NOT NOW`, the reason quoted word for word in column 5, `What they said on the call` |
-
-   `CLOSED` is a dead row, not a sale: Warm Extract moves `SENT` rows past day 9 with
-   nothing back to `CLOSED`. Nothing in the seven columns records a sale, so money is
-   ASKED for at the numbers gate and never counted off Status. Count the stages yourself,
-   show the count back in one line for a yes, and ask only for what the sheet cannot see
-   (views, clicks, list size, money). The window is whichever of these three they can
-   actually answer: the warm sprint just run, the last full buying cycle, or trailing
-   twelve months divided by twelve. Never the calendar month. Numbers the sheet cannot
-   answer are asked at the numbers gate, never mid-SCORE.
+7. The number chain (how buyers currently reach them, stage by stage). **One stage is
+   already on paper: the objection.** The NOT NOW rows the founder pasted at step 0 are it,
+   each reason quoted word for word out of column 5, `What they said on the call`. Count
+   those rows and read the reasons; that is the whole chain this run holds. Nothing else
+   here opens the founder's sheet, so every other stage (sent, replies, calls, money, plus
+   views and clicks where a content lane exists) is ASKED for at the numbers gate, in one
+   batch, never mid-SCORE. Show the chain back in one line for a yes. The window is
+   whichever of these three they can actually answer: the warm sprint just run, the last
+   full buying cycle, or trailing twelve months divided by twelve. Never the calendar
+   month.
    **Who owns the week-one blank, and this is the only place the rule lives** (the document
    template and the run file point here): the WEAKEST STAGE of the chain, and only a stage
    that EXISTS in this founder's funnel today can take it. Weakest means the biggest

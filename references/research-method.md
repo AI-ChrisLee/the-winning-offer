@@ -4,15 +4,17 @@ Two passes, in this order. State the reason for each before running it.
 
 ## Which mode this run is in
 
-Step 1 of the run checks the two tools by probing one each. The install lesson wired them,
-so most runs arrive wired; a tool that errors on auth counts as NOT wired. Say so, print
-unwired mode on the document, and run the ladder below.
+Step 1 of the run checks the two tools by probing one each. The Winning Offer lesson's Step
+1 wires Apify, so most runs arrive with that one live; Perplexity is optional and no lesson
+wires it. A tool that errors on auth counts as NOT wired. Say so, print unwired mode on the
+document, and run the ladder below.
 
 What unwired costs, in one line: Reddit. `reddit.com` is blocked for the built-in fetch and
 for the built-in search, so an unwired run returns zero Reddit results in every niche, and
 Reddit is where this buyer's pain arrives in full sentences. Say that at the gate, before
 the founder decides, never after the document prints. A founder who wants it wired goes back to
-the install lesson; this run does not stop for it, and it never runs the wiring itself.
+Step 1 of the Winning Offer lesson, where the token and the wiring paste live; this run does
+not stop for it, and it never runs the wiring itself.
 
 ## Pass 1 · The buyer's own language
 
@@ -179,8 +181,8 @@ the built-in search is the fallback, under the same honesty rules as Pass 1.
 
 One research note at `squad/offer-research.md`, readable in five minutes. Every heading
 below is written by exact string, every run, and two of them are load-bearing outside this
-run: `## BUYER LANGUAGE` (the Close appends objections into it, the Winning Scrape reads
-it) and `## CHANNEL BASELINES` (the Winning Scrape starts its medians from it). A drifted
+run: `## BUYER LANGUAGE` (compiled from `squad/clients/*/notes.md` on every run, nobody else writes
+it, the Winning Scrape reads it) and `## CHANNEL BASELINES` (the Winning Scrape starts its medians from it). A drifted
 string there is a section that is gone. `## CHANNELS MINED`, `## DIRECTION` and
 `## EMPTY SEATS` are named in prose by the Winning Scrape, so they keep their strings too.
 The remaining four (`## ALLOWED WORDS`, `## OPERATORS`, `## SCORECARD`, `## ATTACK LOG`)

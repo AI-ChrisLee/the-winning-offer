@@ -15,12 +15,12 @@ collecting real data.
 
 **The calls come before the document, and that order is the whole trick.** The founder ran
 Warm Extract first, so at least one real conversation with a real buyer already happened
-before this run opens, often a handful, and it is already written down:
-`squad/warm-notes.md` holds what those people said, verbatim, labeled and dated. One
-conversation opens this run; under five makes the read thin, which the document's mode line
-prints and names, and never makes the run wait. That file is your PRIMARY source. The
-scrapers are the second source, and they exist to fill what the calls could not answer,
-never to lead. An offer written before anybody was asked is written in the founder's own
+before this run opens, often a handful, and it is already written down: one folder per
+person under `squad/clients/`, and `notes.md` in each holds what that person said, verbatim,
+labeled and dated. One folder opens this run; under five makes the read thin, which the
+document's mode line prints and names, and never makes the run wait. Those folders are your
+PRIMARY source. The scrapers are the second source, and they exist to fill what the calls
+could not answer, never to lead. An offer written before anybody was asked is written in the founder's own
 nouns, and the buyer does not use those nouns. So this run starts by reading what the
 buyers said, not by searching.
 
@@ -38,7 +38,7 @@ exists.
 
 | Beat | Mode |
 |---|---|
-| 0 THE CALLS, then SAY | HUMAN INPUT: `squad/warm-notes.md` and the Outreach Sheet rows first, then the five answers |
+| 0 THE CALLS, then SAY | HUMAN INPUT: `squad/clients/*/notes.md` and the NOT NOW rows first, then the five answers (pre-filled from `## THE DRAFT` when Warm Extract wrote one) |
 | 1 AGREE | **STOP · GATE: the tool check, then yes before any research runs** |
 | 2 LISTEN | AUTO (one exception: under about five PUBLIC quotes → ask the founder to paste more, then continue) |
 | 3 MAP | AUTO |
@@ -59,15 +59,17 @@ order and continue at the first one missing or incomplete.
 
 | Missing or incomplete | Resume at |
 |---|---|
-| `squad/business.md` does not exist | step 0 |
-| `squad/warm-notes.md` exists but `squad/offer-research.md` has no `## BUYER LANGUAGE` block carrying `(warm call ...)` quotes | step 0, the warm read |
-| `squad/business.md` still holds `## THE FIVE ANSWERS` and `squad/offer-research.md` has no heading past `## BUYER LANGUAGE` | step 1 (restate the five answers back for confirmation, never re-ask them) |
+| `squad/business.md` does not exist, or carries no `confirmed <date>` stamp and holds `## THE DRAFT` with no `## THE FIVE ANSWERS` under it yet | step 0 (THE DRAFT pre-fills the five answers: restate them for confirmation, never re-ask them) |
+| a `squad/clients/*/notes.md` exists whose quotes are not under `## BUYER LANGUAGE` in `squad/offer-research.md` | step 0, the warm read (that heading is compiled from the folders on every run) |
+| `squad/business.md` holds `## THE FIVE ANSWERS`, no stamp, and `squad/offer-research.md` has no heading past `## BUYER LANGUAGE` | step 1 (restate the five answers back for confirmation, never re-ask them) |
 | `squad/offer-research.md` is missing a heading its output table names | that heading's step |
 | the document exists but its BRAND line is missing, or its last line carries no `confirmed <date>` stamp | step 8, THE GATE ONLY: never re-run the research |
 | the document is written but `squad/credibility-bank.md` has fewer than six sections | step 9 |
 | `.claude/squad-roots.md` is missing a field this run answers | step 10 |
 
-A document already written means steps 0 through 7 are done: never re-run them. The step-8
+The stamp, not the file, says where the run stands: `squad/business.md` existing proves
+nothing, since Warm Extract writes `## THE DRAFT` into it before this run ever opens. A
+document already written means steps 0 through 7 are done: never re-run them. The step-8
 gate is not done until the BRAND line is filled and the founder's yes is stamped on the
 document's last line, so a document that stopped short of it gets the gate, and only the gate. Never re-ask a question
 the files already answer, and never re-run a research pass whose findings are already on
@@ -75,15 +77,17 @@ disk.
 
 ## The outputs (four files, every run)
 
-1. `squad/business.md`: THE file. It starts as the five answers under `## THE FIVE ANSWERS`,
-   and step 8 rewrites it into the one-page offer document, which is this file's finished form.
-   Every later agent reads it.
+1. `squad/business.md`: THE file. It starts as `## THE DRAFT` (Warm Extract's, when a call
+   handed an offer over) with the five answers written under `## THE FIVE ANSWERS`, or as the
+   five answers alone, and step 8 rewrites the whole file into the one-page offer document,
+   which is this file's finished form. Every later agent reads it.
 2. `squad/offer-research.md`: what the buyers said and what the market says, under the exact
    heading strings `references/research-method.md` names, written every run even when a
    section's honest content is "(none)". That file says which headings later skills resolve
-   by name and which are this run's own receipts. Every
-   quote under `## BUYER LANGUAGE` carries its source in the label, and warm call quotes go
-   in FIRST, above anything a scraper returned.
+   by name and which are this run's own receipts. `## BUYER LANGUAGE` is compiled from
+   `squad/clients/*/notes.md` on every run, and nobody else writes that heading: every quote
+   carries its source in the label, and the folders' quotes go in FIRST, above anything
+   pasted or scraped.
 3. `squad/credibility-bank.md`: the founder's proof, built in conversation at the end of the
    run (step 9), in six sections. Every later agent that writes anything public (packaging,
    scripts, the sales page) pulls its proof from here, never from memory.
@@ -102,28 +106,34 @@ stop right here and tell the founder to finish the install: copy the whole skill
 
 **Then open the calls before you ask for anything.** The founder just spent a week in
 Warm Extract, sending by hand and talking to people who already know them, and Warm Extract
-wrote every line down. First act of this run: read `squad/warm-notes.md` yourself,
-plus `squad/warm-list.md` if it exists (the pasted Warm tab rows are the list otherwise), plus `squad/draft-offer.md`, the
-pile of per-person service ideas the warm week stacked up, one after each call, written by
-Warm Extract. Read that pile as draft thinking, never as a decision: this run forges
-those sketches into the document. Never make the founder re-narrate
+wrote every call down: one folder per person under `squad/clients/`, and `notes.md` in each,
+seven sections (QUOTES, THE PROBLEM, THE COST, WHAT THEY PAY NOW, THE IDEA, THE MODEL, THE
+NEXT STEP). First act of this run: read every `squad/clients/*/notes.md` yourself. The
+folders are the list; `self/` is the founder's own past self, evidence about a buyer and
+never a buyer. Read THE IDEA and THE MODEL lines as draft thinking, never as a decision:
+this run forges those sketches into the document. The same goes for `## THE DRAFT` when
+`squad/business.md` already holds one (Warm Extract wrote it when a call handed an offer
+over): it is the draft this run checks, never the answer. Never make the founder re-narrate
 a call whose words are already on disk.
 
 Then ask, in one message, for the two things that are not on disk:
 
-- **the Outreach Sheet rows.** The sheet lives in the founder's Google Drive and you
-  cannot open it: ask them to copy the Warm tab and paste it here, header row included,
-  all seven columns. Column 5, `What they said on the call`, outranks the rest, and the
-  objections live in the `NOT NOW` rows plus that column; the founder's summary of what a
-  buyer needs is worth nothing next to the buyer's own line.
+- **the NOT NOW rows.** The Outreach Sheet lives in the founder's Google Drive and you
+  cannot open it: ask them to copy the Warm tab's `NOT NOW` rows and paste them here, header
+  row included. Those rows are the objections, and column 5, `What they said on the call`,
+  outranks the rest of the row; the founder's summary of what a buyer needs is worth nothing
+  next to the buyer's own line. Never ask for the rest of the tab: the folders are the list.
 - **anything they kept somewhere else**: a doc, a notebook, a paste into this chat, or just
   talking the calls back to you now while you write them down. When this repo has no
-  `squad/warm-notes.md` at all, say so plainly and make this the whole intake.
+  `squad/clients/` folder at all, say so plainly and make this the whole intake.
 
-Then mine them, which is not the same as skimming them. Pull every line a buyer actually
-said, verbatim, and write it into `squad/offer-research.md` under `## BUYER LANGUAGE`,
-each quote labeled with where it came from in the form `(warm call · Mina K · Aug 14)`.
-Five things earn their own quotes, and Warm Extract captured them in this order:
+Then mine them, which is not the same as skimming them. Compile `## BUYER LANGUAGE` in
+`squad/offer-research.md` from the folders, fresh on every run: every quote in every
+`notes.md`, verbatim, in the language it was said in with its gloss, carrying the label Warm
+Extract gave it (`(warm call · Mina K · Aug 14)`, or `(founder's recollection · ...)` when
+nothing was recorded). Then the NOT NOW rows and anything pasted, each with its own label.
+Nobody else writes that heading. Five things earn their own quotes; the first four live in
+each `notes.md`, the fifth in the NOT NOW rows:
 
 1. **The words they used for the problem.** Their nouns, not the founder's. These become
    the sentence and the promise later, and no scraped phrase outranks them.
@@ -142,16 +152,22 @@ Say the read back in one line before you move: how many conversations you read, 
 quotes you pulled, and what the calls never touched. That last part is the research brief
 for steps 2 and 3.
 
-**No notes, or fewer than five conversations?** Say it plainly, once, without a lecture:
+**No folders, or fewer than five?** Say it plainly, once, without a lecture:
 the offer built from research alone is weaker, because it is assembled from what strangers
 say in public rather than from what your own buyers said to your face, and the document's mode
 line carries how thin the read was. The blind spot is gate 6's, always. Then the smaller run, which is the default: proceed now, and
 re-open this run after the next five conversations land, from any lane. Going back beats
-going forward on a count, not a feeling: nothing sent yet at all, or graded names still
-unsent outnumbering the sent ones. Either way say so, point back at g3's warm week, and let the founder pick. A list already
-in motion runs now; a founder whose list is spent never gets sent back to wait.
+going forward on the one count this run can actually see, the folders under
+`squad/clients/`: zero of them, or one, and another warm week buys more than any scrape
+will. Say so, point back at g4's warm week, and let the founder pick either way. A founder
+who is still calling people runs now; a founder whose list is spent never gets sent back to
+wait.
 
-**Then the five answers.** Ask, in one message, only these:
+**Then the five answers.** When `squad/business.md` holds `## THE DRAFT`, it already
+answers the first three: who is the buyer (2), the deliverable and the problem in their words
+are what is sold (1), the price line and the model are the cost and the delivery (3). Restate
+each as the answer and ask for a confirm or a correction, never the question again; 4 and 5
+get asked as written. Otherwise ask, in one message, only these:
 
 1. What do you sell, in one sentence?
 2. Who buys it? (job title or situation, not demographics)
@@ -171,10 +187,12 @@ history that does not exist.
 If an answer is vague, ask a follow-up. Keep asking until you could explain this business
 to a stranger in two sentences, and stop the moment the honest answer is that there is
 nothing there yet. Save them to `squad/business.md` under one heading,
-`## THE FIVE ANSWERS`, one labeled line per question; the resume check reads that heading,
-and step 8 replaces the whole thing with the document. Where a call already answered one of
-the five, show the founder the quote and ask them to confirm or correct it, rather than
-making them type an answer they already gave a buyer out loud.
+`## THE FIVE ANSWERS`, one labeled line per question, written under `## THE DRAFT` when the
+draft is there (the draft stays as it is until step 8; the price gate reads its price line);
+the resume check reads that heading, and step 8 replaces the whole file with the document.
+Where a call already answered one of the five, show the founder the quote and ask them to
+confirm or correct it, rather than making them type an answer they already gave a buyer out
+loud.
 
 ## Step 1 · Confirm, then check the tools
 
@@ -189,10 +207,11 @@ Research without agreement gets thrown away.
 for Apify, `search` for Perplexity. Never use a run-starting tool as the liveness check;
 Apify's `call-actor` starts a billed run, and a founder on the free tier should not pay for
 a handshake. Wired means callable right now, in this session; a tool that errors on auth is
-not wired. Say which mode this run is in. **Apify is the one that matters and the install
-lesson wired it; Perplexity is optional there**, so a run with Apify live and Perplexity
-absent is a normal wired run, and pass 2's direction read falls back to search. A founder
-with no Apify goes back to the install lesson rather than into a procedure here. The run goes either way. Unwired it runs on the ladder in
+not wired. Say which mode this run is in. **Apify is the one that matters and the Winning
+Offer lesson's Step 1 wires it; Perplexity is never wired by any lesson and stays
+optional**, so a run with Apify live and Perplexity absent is a normal wired run, and pass
+2's direction read falls back to search. A founder with no Apify goes back to that lesson's
+Step 1 (the token, then the one paste that wires it) rather than into a procedure here. The run goes either way. Unwired it runs on the ladder in
 `references/research-method.md`, the document prints the mode, and Reddit (the best public
 source of buyer language once the calls are mined) is missing from the read entirely. Say
 that here, before they decide, never after the document prints.
@@ -210,8 +229,8 @@ only two: that file's founder ask, and the thin flag on the document's mode line
 reaches THE STACK's fear column, which runs on its own ladder in
 `references/card-template.md`.
 
-LISTEN searches for what the calls did not cover: the buyers nobody on the warm list
-represents, the objection nobody voiced, the price nobody named. Scraped quotes append
+LISTEN searches for what the calls did not cover: the buyers no folder under
+`squad/clients/` represents, the objection nobody voiced, the price nobody named. Scraped quotes append
 BELOW the warm quotes under `## BUYER LANGUAGE`, each with its own source label, so anyone
 reading that file later sees which lines came from a conversation and which came from a
 stranger on the internet.
@@ -226,7 +245,11 @@ Read `references/scorecard.md` and follow it exactly, in its order: the model ch
 value equation, the seven gates, the three self-attacks.
 
 **STOP after the model check: the founder decides the numbers.** Present the model pick
-with its precedent, and a price structure as a PROPOSAL. The founder confirms or adjusts.
+with its precedent, and a price structure as a PROPOSAL. When `squad/business.md` holds
+`## THE DRAFT`, its price line is the proposal: the number the founder typed at Warm
+Extract's stop is held up first, ahead of the operator table; `unpriced` sends you to the
+procedure below, and a buyer's own number on that line (`the price they said`) is a fact the
+procedure may hold up, never the price. The founder confirms or adjusts.
 You never print a price, a tier, or a cap the founder did not decide. (Money and identity
 decisions are always human; the research only argues.) This same gate collects the
 founder's number chain for gate 7, over the window that gate names, and missing numbers
@@ -254,9 +277,9 @@ Outreach Sheet before any objection you invent.
 ## Step 8 · THE DOCUMENT
 
 Read `references/card-template.md` and produce the one-page offer document in exactly that
-structure, written INTO `squad/business.md`, replacing the five answers (fold anything
-still useful from them into the document's WHO and MODEL sections). One file, one page: the
-business file's finished form is the document.
+structure, written INTO `squad/business.md`, replacing the whole file, `## THE DRAFT` and the
+five answers both (fold anything still useful from them into the document's WHO and MODEL
+sections). One file, one page: the business file's finished form is the document.
 
 Print the complete document, answer included, then stop; re-print only the lines the founder
 changes.

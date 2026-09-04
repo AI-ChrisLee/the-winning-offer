@@ -8,15 +8,16 @@ choosing and start.
 
 ## What to bring
 
-Your calls. Warm Extract wrote them to `squad/warm-notes.md`, and its per-call service
-ideas to `squad/draft-offer.md`; this run opens both itself, and it asks you to paste your
-Outreach Sheet's Warm tab next to them. Notes kept somewhere
+Your calls. Warm Extract wrote each one into its own folder, `squad/clients/<name>/notes.md`,
+and the draft offer into `squad/business.md` when a call handed one over; this run opens
+them itself, and it asks you to paste the NOT NOW rows of your Outreach Sheet's Warm tab next
+to them. Notes kept somewhere
 else are fine: a doc, a notebook, or just talking the calls back while it writes them
 down. No calls yet and the run still goes; the document carries that as its blind spot.
 
 ## Run it
 
-The install lesson already put this skill in `.claude/skills/` and wired the two tools.
+Step 1 of the Winning Offer lesson put this skill in `.claude/skills/` and wired Apify.
 Open Claude Code in your business folder and say: **"Run the Winning Offer on my
 business."** (Downloaded this folder on its own instead? Drop the whole thing into
 `.claude/skills/`, then quit and reopen Claude Code.)
@@ -32,20 +33,21 @@ window. It reads what is already on disk and picks up at the first thing missing
 
 ## The two tools
 
-The install lesson wires Apify and Perplexity (five minutes, once). This run only checks
-them at its first stop, and tells you which mode it is in. Reddit is where your buyers
-write their problems out in full sentences and Claude Code cannot open it alone, so unwired
-the read is thinner, Reddit is missing from it entirely, and the document says so. Skipped that
-lesson? Go back and do it there; the `mcp.json.example` in this folder is the same config
-it uses. The run goes either way.
+Apify is the one that matters, and Step 1 of the Winning Offer lesson wires it (five
+minutes, once). Perplexity is optional and no lesson wires it, so Apify alone is a normal wired run.
+This run only checks them at its first stop, and tells you which mode it is in. Reddit is
+where your buyers write their problems out in full sentences and Claude Code cannot open it
+alone, so unwired the read is thinner, Reddit and the YouTube comments are missing from it
+entirely, and the document says so. Skipped Step 1? Go back and do it there; the
+`mcp.json.example` in this folder is the config that paste uses. The run goes either way.
 
 ## What you get
 
 One page and one answer. Either "this holds, here is the blind spot, start," or "this
 fails at gate X, fix that first." No option menus, no "it depends."
 
-Two parts come next: the one that runs the sales call, from the prep sheet to the follow-up
-you send before you stand up, and the one that turns your first 90 days into a plan and
-then prints today's tasks every morning. They arrive one episode at a time. Subscribe (the
-link under every episode) and each new part lands in your inbox the day its episode goes
-live.
+Three parts come next: the one that runs the sales call (one general script, one personal
+question before every call, the debrief after it), the one that builds the shell you put on the
+screen in the sales hour, and the one that turns your first 90 days into weekly tasks sized to
+your hours. They arrive one episode at a time. Subscribe (the link under every episode) and each
+new part lands in your inbox the day its episode goes live.
