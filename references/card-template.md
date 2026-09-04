@@ -1,118 +1,100 @@
 # The offer document (the Winning Offer: THE DOCUMENT)
 
-One page. This order. Nothing else.
+One page, read on a screen. These headings, this order, nothing else.
+
+## The law
+
+- A heading per section, by exact string, in the order below.
+- One-line paragraphs. No paragraph over 40 words. No section past one screen.
+- A table wherever there are 3 or more columns of facts: THE STACK always, PRICE when it has rungs or tiers, THE NUMBERS when a chain exists.
+- Bold on the lines the founder says out loud: THE SENTENCE and THE ANSWER. Nothing else bold.
+- Plain markdown in `squad/business.md`. The HTML below is made only for the Google Doc.
 
 ## THE DREAM OUTCOME
-One line, in the buyers' words, quoted like they would say it.
+One line, in the buyers' words, quoted like they would say it, with its source label.
 
 ## THE MODEL
 One word for the model, then what is mixed, in one line.
-Example shape: "Hybrid: done-for-you plus one thing you do." When the offer genuinely is
-one thing (a pure 1-on-1 service), one word with no mix is the honest answer; never force
-a hybrid.
+Example shape: "Hybrid: done-for-you plus one thing you do."
+A pure 1-on-1 service is one word with no mix. Never force a hybrid.
 
 ## THE SENTENCE
 The one sentence. Bold, alone.
 
 ## THE PROMISE
-Three sentences max. Includes the honesty line when a time claim exists.
+Three sentences at most, one per line.
+The honesty line when a time claim exists: "X days to ready, not X days to results."
 
 ## WHO
-Two lines: who it is for; who gets refused and why. A named refusal builds more trust
-than any claim.
+Line 1: who it is for.
+Line 2: who gets refused and why. A named refusal builds more trust than any claim.
 
 ## THE STACK (everything included)
-Numbered list of everything the buyer receives. If the offer has parts, each part gets
-one row: the part, the fear it kills (a verbatim buyer pain), what they get. Delivery
-details (how it arrives, where meetings happen) live inside the item they belong to,
-not in a separate section.
-The fear column has a source ladder, and it only climbs down when a rung is empty: a warm
-call quote first, a scraped quote second, and the founder's own stated pain last, printed
-with `(founder's own read, unsourced)` visible in the cell. A document carrying warm call
-quotes never prints that last form, whatever the market read's own count says. Never
-blank, never unmarked, and never a buyer quote nobody said.
-Four rules: the stack lists what exists TODAY; anything new the research suggests adding
-goes in WHAT WEEK ONE MAY ATTACK NEXT, never silently into the stack. A service offer
-will have fewer rows than a productized system; sparse and true beats padded. Never force
-an owned-forever vs rented split onto an offer that has no one-time component; the stack
-mirrors the model, whatever the model honestly is. An owned asset that is not yet a
-deliverable (an unmailed email list, an unused review base) still gets a row, labeled as
-an asset, because it is part of what the buyer's money joins.
+A table, one row per part: `the part · the fear it kills · what they get`. Delivery details live in the row they belong to.
+The fear cell is a quote in quotation marks with its label: `(warm call · Name · date)`, `(scraped · source)` or `(founder's own read, unsourced)`.
+That is a ladder, and it climbs down only when a rung is empty. A document carrying warm quotes never prints the last form. Never blank, never unmarked, never a quote nobody said.
+The stack lists what exists today. Anything new the research suggests goes in WHAT WEEK ONE MAY ATTACK NEXT, never silently into the stack.
+Sparse and true beats padded. A service has fewer rows than a productized system.
+Never force an owned-forever vs rented split on an offer with no one-time part. The stack mirrors the model.
+An owned asset not yet a deliverable (an unmailed list, an unused review base) still gets a row, labeled as an asset.
 
 ## PRICE
-Two table shapes, and the market's own precedent picks between them. `stage · seats or
-trigger · price` for a price that rises on a ladder. `package · what's inside · price`
-for a market whose operators all sell named tiers (every wedding videographer publishes
-three; the model check already copied that precedent, so the document prints it). If there is
-one price, state the one price plainly. Never invent tiers the founder has not decided:
-"you never present options" governs what YOU hand the founder, never the shape of what
-the founder sells to a buyer. A tier table the founder decided at the numbers gate is a
-price, not a menu.
-Below it, the terms in plain lines: what is included, what happens on cancel, why the
-price rises (a real reason or no rise). When there is a recurring fee, the cancel line
-must NAME what stops (the day-31 attack's answer, written down); a recurring fee whose
-cancel line names nothing is not ready to print. A single-price business produces a
-short PRICE section: one line plus terms. Short is the honest outcome, not
-under-delivery.
+Line 1: the number, one payment or the recurring fee, and how it is paid.
+Rungs or tiers print as a table. `stage · trigger · price` for a price that rises on a ladder. `package · what's inside · price` for a market whose operators all sell named tiers.
+One price with no rungs: one line, no table.
+Never invent tiers the founder has not decided. A tier table the founder decided at the numbers gate is a price, not a menu.
+Then the terms, one line each: what is included, what happens on cancel, why the price rises (a real reason, or no rise).
+A recurring fee's cancel line names what stops. A cancel line that names nothing is not ready to print.
+Short is the honest outcome, not under-delivery.
 
 ## THE WARRANTY
-Only what the founder controls. Never outcomes. State what happens if the condition is
-missed.
+Only what the founder controls. Never outcomes.
+One line per condition, and what happens when it is missed.
 
 ## SCARCITY + URGENCY
-Only if real. If nothing is scarce, this section is absent, not invented.
+Only if real: one line, with the reason. Nothing scarce, and the section is absent.
 
 ## THE REFUSALS
-What this business will never say or do on a selling surface: no income promises, no
-invented numbers, no fake deadlines, plus the refusals specific to this market's worst
-habits. This is where trust lives.
+One line each: no income promises, no invented numbers, no fake deadlines, then this market's own worst habits.
 
 ## THE NUMBERS
-One line: the numbers today, named as the founder's own log names them (sent, replies,
-calls, money, plus views and clicks where a content lane exists), the window they cover,
-and which stage week one attacks. A stage that does not
-exist yet is named as not in play, never as zero and never as uncounted: a stage nobody
-counts and a stage that is not there at all are different findings, and only the first can
-take the week-one blank. The full chain lives in
-`squad/offer-research.md` under `## SCORECARD`, next to gate 7; this line is the copy every
-later agent reads without opening that file.
+A table when a chain exists: `stage · count · note`. The stages carry the founder's own log names (sent, replies, calls, money, plus views and clicks where a content lane exists).
+Under it one line: the window the counts cover, and the stage week one attacks.
+A stage that does not exist yet is "not in play", never zero and never uncounted. Only a stage nobody counts can take the week-one blank.
+The full chain lives in `squad/offer-research.md` under `## SCORECARD`, next to gate 7.
 
 ## THE SWITCHING ITCH (only when C0, question 5 surfaced one)
-One line, right before the answer: the thing the founder keeps thinking about switching
-to, and what the research found about it. The itch resolves HERE, in this line; its first
-paid test goes in WHAT WEEK ONE MAY ATTACK NEXT, never in the answer's blank.
+One line: the thing the founder keeps thinking about switching to, and what the research found.
+The itch resolves here. Its first paid test goes in WHAT WEEK ONE MAY ATTACK NEXT, never in the answer's blank.
 
 ## THE ANSWER
-The document's last judgment; the two sections below it are addenda, not judgments, and the
-document's last line is a footer. Exactly one of these two forms, word for word, bold:
+The document's last judgment. Bold, exactly one of these 2 forms, word for word:
 
 **"This offer holds. The blind spot is ___. Week one attacks ___. Stop choosing. Start."**
 
 **"This offer fails gate ___ because ___. Fix that before you build anything else."**
 
-**Who owns the week-one blank:** the weakest stage of the number chain, by the rule in
-`scorecard.md` gate 7.
+The week-one blank goes to the weakest stage of the number chain, by the rule in `scorecard.md` gate 7.
 
 ## WHAT WEEK ONE MAY ATTACK NEXT
-Everything that wanted the answer's blank and did not get it: the switching itch's first
-paid test, any unscored gate, the undecided one-tenth find. One line each, no ranking. The
-section is absent when there is nothing in it.
+One line each, no ranking: the itch's first paid test, any unscored gate, the undecided one-tenth find.
+Absent when there is nothing in it.
 
 ## BRAND (one line, the document's last section)
-Two decisions, not research findings: the founder's ONE accent color (a hex) and the
-product word (the one noun they use for what they sell, plus any synonym they refuse).
-The voice pass at THE YES asks both, in the same breath as the sentence and the promise.
-"(none yet)" goes here only when the founder declines to decide, never because the ask was
-skipped, and never a color chosen for them. The thumbnail work reads this line, and the roots file
-copies it; without it every later agent guesses.
+The founder's one accent color (a hex) and the product word, plus any synonym they refuse.
+Asked at THE YES, in the same breath as the sentence. "(none yet)" only when the founder declines, never a color chosen for them.
+The thumbnail work reads this line and the roots file copies it.
 
----
+## The mode line
+The document's last line, small: `warm · N calls`, `warm · self-interview only`, `cold · market` or `cold · market + N calls`.
+A cold run adds the tool mode in parens (`wired`, or `unwired ladder`) and `thin` when the public read came back under about 5 quotes.
+The yes adds `confirmed <date>`. That stamp is the only record the answer was approved, and a later session reads it to know whether the gate still owes a run.
 
-Formatting rules: plain markdown only (no HTML), tables for anything with three or more
-columns of facts, bold for the sentence and the promise, no section past one screen.
-Last line of the document, one small line, the mode line: `warm · N calls`, `warm · self-interview
-only`, `cold · market` or `cold · market + N calls`; on a cold run the tool mode in parens
-(wired, or the unwired ladder) and `thin` when the public read came back under about 5
-quotes; and, the moment the founder says yes at THE YES, `confirmed <date>`. That stamp is
-the only record that the answer was approved, and a later session reads it to know whether
-the gate still owes a run.
+## The Google Doc
+Made on the yes, when a Drive connector answers (found by shape: a tool named `create_file` on a UUID-prefixed server).
+The document is rendered to HTML: `<h1>` for the title, `<h2>` per section by the same strings, `<p>` per line, `<b>` on THE SENTENCE and THE ANSWER, `<i>` on the mode line.
+Every table is `<table border="1" cellpadding="6">` with a `<tr><th>` header row: THE STACK, PRICE when it has rungs, THE NUMBERS when a chain exists.
+No CSS, no `<div>`, no markdown left inside the HTML.
+Created with `create_file`: `title` "Offer document · <founder name>", `contentMimeType` `text/html`, the HTML as `textContent`. It lands as a formatted Google Doc.
+The link it returns is printed to the founder and written to the roots row `offer doc`.
+A later yes after a rebuild makes a new Doc with the same title, and the row takes the new link.

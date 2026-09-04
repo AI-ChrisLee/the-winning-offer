@@ -7,8 +7,9 @@ runs on the laptop; nothing is uploaded anywhere.
 
 Zoom, free, hosted from the desktop app (a phone host records nothing). Press Record. In
 person: the phone's recorder. Free Google Meet records nothing; take the call on Zoom or in
-person. When the call ends, hand the file to your squad: "I talked with ____. Here is the
-recording: <path>". It transcribes on the laptop.
+person. When the call ends, drop the file in `squad/interviews/`, named after the person
+(`daniel.m4a`), and say: "/the-winning-offer I put my interview with Daniel in
+squad/interviews. Build the offer from it." It transcribes on the laptop.
 
 ## How the squad transcribes (the skill runs this; the founder says yes once)
 
@@ -40,21 +41,28 @@ from faster_whisper import WhisperModel
 model = WhisperModel("base", device="cpu", compute_type="int8")
 segments, info = model.transcribe("<recording path>", vad_filter=True)
 with open("<folder>/transcript.md", "w") as out:
+    out.write("source: <recording file name> · <date>\n\n")
     for s in segments:
         out.write(s.text.strip() + "\n")
 ```
 
-Write those lines to a temp file, `transcribe.py`, and run the venv's python against it; that
-path works on both (`~/.squad/whisper/bin/python transcribe.py` on a Mac,
-`$HOME\.squad\whisper\Scripts\python transcribe.py` on Windows). Delete the temp file after. A
+That first line is written here, by the transcriber, and it is the only record the recording
+was processed. Without it the same file is transcribed again on the next run.
+
+Write those lines to a temp file at `~/.squad/whisper/transcribe.py`
+(`%USERPROFILE%\.squad\whisper\transcribe.py` on Windows), never in the company folder, and
+run the venv's python against it; that path works on both
+(`~/.squad/whisper/bin/python ~/.squad/whisper/transcribe.py` on a Mac,
+`$HOME\.squad\whisper\Scripts\python $HOME\.squad\whisper\transcribe.py` on Windows). Delete
+the temp file after. A
 20-minute call takes 2 to 5 minutes on a laptop CPU; say so before it starts, then wait. The
 install is done once; every later recording goes straight to this step.
 
 **An install that fails** gets one line and no second attempt: "The install did not take.
 Drop the file on MacWhisper (Mac, free, macwhisper.com) or Buzz (Windows, free,
 github.com/chidiwilliams/buzz; the installer is unsigned, so Windows shows More info, then
-Run anyway), set the language to the call's, export `.txt`, and hand it back." Then wait for
-the file. Both run on the laptop too.
+Run anyway), set the language to the call's, export `.txt`, and drop it in
+squad/interviews/." Then wait for the file. Both run on the laptop too.
 
 ## A 60-minute sales call (the-close quotes this)
 

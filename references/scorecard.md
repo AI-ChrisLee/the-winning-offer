@@ -92,10 +92,9 @@ effort. Each dial must become a PHRASE in the copy, not a score on a sheet:
    On a warm run no chain is asked: this gate prints `unscored: no call touched it`, and the
    blank goes to an unsaid price first, then to the earliest gate printed unscored.
    Write the chain and its window into `squad/offer-research.md` under `## SCORECARD`,
-   next to this gate. Name the stages in the founder's own vocabulary, the one the daily
-   post and the Sunday row already count (sent, replies, calls, money), and add views and
-   clicks only where a content lane actually exists; say plainly which stages do not exist
-   yet. If the funnel is a single step (post → DM → sale), the
+   next to this gate. Name the stages in the founder's own vocabulary (sent, replies,
+   calls, money), and add views and clicks only where a content lane actually exists; say
+   plainly which stages do not exist yet. If the funnel is a single step (post → DM → sale), the
    uncounted-stage rule already answers it: the one live stage nobody counts IS the weakest
    stage, and it goes in the blank.
 
